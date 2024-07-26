@@ -17,7 +17,7 @@ O MIPSconverter é um programa para converter instruções da arquitetura MIPS p
 
 ## :unlock: Como usar
 
-- <strong>Passo 1:</strong> Insira as instruções MIPS uma por linha em um arquivo .txt seguindo o exemplo: add $s1, $s2, $s3
+- <strong>Passo 1:</strong> Insira as instruções MIPS uma por linha em um arquivo .txt seguindo o exemplo dos arquivos testes, similar a isso: add $s1, $s2, $s3
 - <strong>Passo 2:</strong> Altere no arquivo .py o caminho/nome do arquivo que vai ser lido em read_file
 - <strong>Passo 3:</strong> Rode o programa, insira seu nome e o nome que deseja para o arquivo de resultados que vai ser gerado 
 
