@@ -63,7 +63,7 @@ def convertion(instruction):
 
     elif op_code == 'lui':
         rt = data_registers[instruction_parts[1]]
-        rs = data_registers['$zero']
+        rs = '00000'
         immediate = bin(int(instruction_parts[2]) & 0xFFFF)[2:].zfill(16) #ao converter em python tem o 0b na frente, por isso o [2:] e o zfill é para completar os 16
         return data_opcode[op_code] + rs + rt + immediate
         #instr I = opcode(6) + rs(5) + rt(5) + immediate(16)
